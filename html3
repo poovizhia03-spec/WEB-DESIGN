@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <h1>example of heading</h1>
+    <h2>example of heading</h2>
+    <h3>example of heading</h3>
+    <h4>example of heading</h4>
+    <h5>example of heading</h5>
+    <h6>example of heading</h6>
+    <h1><p style="color: green;"><i><u> heading used with font ,bold,italic,underline tag</u></i></p></h1>
+    <h2><p style="color: rgb(222, 29, 29);"><i><u> heading used with font ,bold,italic,underline tag</u></i></p></h2>
+    <h3><p style="color: rgb(47, 0, 128);"><i><u> heading used with font ,bold,italic,underline tag</u></i></p></h3>
+    <h4><p style="color: rgb(235, 80, 209);"><i><u> heading used with font ,bold,italic,underline tag</u></i></p></h4>
+    <h5><p style="color: rgb(207, 168, 39);"><i><u> heading used with font ,bold,italic,underline tag</u></i></p></h5>
+</body>
+</html>
