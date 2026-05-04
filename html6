@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    img{
+       
+        border: 3px solid brown;
+
+    }
+    p{
+        text-align: center;
+    }
+</style>
+<body>
+    <div style="background-color: bisque;;">
+        <h1>My Bestfriend Max</h1>
+        <p style="color: green;">This is my puppy <i>Max</i>
+        .He's a purebred <b>Golden Retriever</b>,
+     and  he's two months old.
+    max is super energetic and lovers to play fetch.
+  </p>
+ <img src="./puppy_max.png"  hspace="40%">
+    </div>
+</body>
+</html>
