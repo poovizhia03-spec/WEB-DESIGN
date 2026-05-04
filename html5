@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <div style="background-color: rgb(182, 93, 25);
+    text-align: center ;font: bold; padding: 90px;font-size: 40px;">THIS IS MY BANNER TEXT</div>
+     <div style="background-color: rgba(206, 173, 39, 0.903);padding: 4%;">
+        <h3  style="text-align: center;color: green;margin-top: -25px;">
+            HOME &nbsp;&nbsp;INFO&nbsp;&nbsp;CONTANT
+        </h3>
+        <h2>This Is My Paragraph Header</h2>
+        <p  style="color: brown;text-align:left">This is where I am going to put useful and informed
+            in text about my website<br><br>
+            This is where I am can place even more information
+        </p>
+         <p style="color: black;text-align: center;">This is where I can phase
+            a copyright logo like this 🤖</p>
+     </div>
+</body>
+</html>
