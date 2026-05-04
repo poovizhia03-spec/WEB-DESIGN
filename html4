@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+</head>
+<style>
+    h1{
+       padding-left: 100px;
+    }
+    h2{
+        padding-left: 100px;
+    }
+    img{
+        margin-left: 8%;
+    }
+    p{
+        padding-left: 100px;
+    }
+</style>
+<body>
+    <h1>My Exciting Website!</h1>
+    <div style="background-color: black; color: white; padding-left: 25px;" >
+    <h5>Home<br>Blog<br>Abount us<br>Our History<br>Contacts</h5>
+    
+    </div>
+    <h2 ><b>An Exciting Blog Post</b></h2>
+    <img src="./pic/Screenshot 2026-05-04 122252.png "  >
+    <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo <br>melon azuki bean garlic.
+
+<br><br>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard <br>greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+
+<br><br>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado <br>daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach 
+<br>carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin <br>
+onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi <br>
+beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper
+<br> artichoke.
+
+</p>
+
+</body>
+</html>
