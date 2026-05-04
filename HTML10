@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMPLE1</title>
+</head>
+<style>
+    div{
+        border: 7px solid black;
+        padding: 20px;
+    }
+</style>
+<body>
+    <div>
+    <h1>Programming languages</h1>
+    <P>Languages HTML and CSS are intended for site layout.</P>
+    <h1>HTML</h1>
+    <P>HTML(Hyper Text Markup Language)is a language of<br.
+    hypertext markup, which is used to create wed pages.</P>
+    <h3>...<br>...</h3>
+    <h1>CSS</h1>
+    <P>
+      CSS is a language of style, defining the display of HTML<BR>
+        documents.  
+    </P>
+    <h3>...</h3>
+    </div>
+    
+</body>
+</html>
