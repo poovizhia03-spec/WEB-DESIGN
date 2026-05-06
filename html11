@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>line</title>
+</head>
+<style>
+    .line{
+        border: 3px solid green;
+    }
+</style>
+<body>
+    <h1>All Current Tasks</h1>
+    <table>
+    <tr>
+         <th>Name  </th>
+         <th>Description   </th>
+         <th>Priority  </th>
+    </tr>
+    <tr>
+        <td>Cleaning  </td>
+        <td>Clean the house  </td>
+        <td>Low </td>
+    </tr>
+     <tr>
+        <td>Gardening  </td>
+        <td>Mow the lawn  </td>
+        <td>Medium </td>
+    </tr>
+     <tr>
+        <td>Shopping  </td>
+        <td>Buy the groceries  </td>
+        <td>High </td>
+    </tr>
+     <tr>
+        <td>Painting  </td>
+        <td>Paint the fence  </td>
+        <td>Medium </td>
+    </tr>
+    <tr>
+        <td>New task  </td>
+        <td>My precious  </td>
+        <td>Vital </td>
+    </tr>
+    <tr >
+        <td class="line" colspan="3">Swimming  
+        Go to the beach  
+        Medium </td> 
+    </tr>
+</table> 
+</body>
+
+</html>
