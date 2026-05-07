@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catdog</title>
+</head>
+<style>
+    .cat{
+        margin-top: -20px;
+    }
+    .dog{
+        height: 163px;
+        width: 200px;
+        margin-top:-20px ;
+    }
+    pre{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    hr{
+        width: 25%;
+        margin: -20px ;
+        
+    }
+    #moveleft{
+        margin-left: 500px;
+        margin-top: -450px;
+    }
+</style>
+<body>
+    <h1>Cats or Dogs?</h1>
+    <div>
+        <h3>The Prr-fect  Pet</h3>
+        <img class="cat"src="./cat.jpg">
+        <pre>A Cat is ....
+      playful
+      clean and quiet.
+      a warm furry blanket on 
+      your lap.
+    </pre>
+         <hr style="border: 1px solid black; ">
+         <pre>
+            
+A <b>Cat</b> is clearly the better Pet
+choice.
+
+To see about getting a cat of
+your own, find out more <a href="./dog.html">here</a>
+         </pre>
+    </div>
+
+    <div id="moveleft" >
+        <h3 >Man's Best Friend</h3>
+        <img class="dog" src="./dog.jpg" >
+        <pre >A Dog is ....
+      enthusiastic
+      always there for you.
+      a friend on walks or
+      runs. 
+      
+</pre>
+         <hr style="border: 1px solid black;width: 35%; ">
+         <pre>
+           
+    How could you not choose a
+    <b>Dog?</b>
+
+    To see about getting a dog of
+    your own, find out more <a href="./dog.html">here</a>
+</pre>
+    </div>
+</body>
+</html>
