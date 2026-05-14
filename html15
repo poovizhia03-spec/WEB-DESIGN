@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Basic form design using HTML</title>
+</head>
+<style>
+    .box{
+        width: 200px;
+        height: 50px;
+    }
+    fieldset{
+        border: 2px solid rgb(0, 0, 0);
+        padding: 20px;
+        width: 400px;
+        
+    }
+</style>
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h3>Basic Form Design using HTML</h3>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname">
+            </p>
+            <p>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname">
+            </p>
+            <p>
+                <label for ="gender">Gender:</label>
+                <input type="radio"  >
+                <label for="male">Male</label>
+                <input type="radio" >
+                <label for="female">Female</label>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email">
+            </p>
+            <p>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" >
+            </p>
+            <p>
+                <label for="address">Address:</label><br>
+                <input class="box" type="text">
+            </p>
+            <input type="submit" >
+        </fieldset>
+    </form>
+</body>
+</html>
