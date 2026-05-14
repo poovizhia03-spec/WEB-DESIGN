@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<style>
+    h2 {
+        color: blue;
+    }
+    td{
+        color: blue;
+
+    }
+    div{
+        border: 4px solid rgb(4, 8, 118);
+        padding: 20px;
+        margin: 20px;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .a{
+        width: 25%;
+        margin-left: 125px;
+        background-color: rgba(230, 233, 235, 0.912);
+        /* filter: drop-shadow(3px 3px blue); */
+        box-shadow: 3px 3px blue ;
+    }
+    .b{
+        width: 25%;
+        margin-left: 45px;
+        background-color: rgba(230, 233, 235, 0.912);
+        /* filter: drop-shadow(3px 3px blue); */
+        box-shadow: 3px 3px  blue ;
+    }
+
+    .code,.state{
+         margin-left: 45px;
+    }
+</style>
+<body>
+    <b>
+    <div >
+    <h2>Please Complete our survey</h2>
+    <h3>Contact Information</h3>
+    <table>
+    <tr>
+        <td><Label for = "email">Email address:</Label></td>
+        <td><input type = "email" ></td>
+    </tr>
+    <tr>
+        <td><Label for = "First name">First name:</Label></td>
+        <td><input type = "text" ></td>
+    </tr>
+    <tr>
+        <td><Label for = "Last name">Last name:</Label></td>
+        <td><input type = "text" ></td>
+    </tr>
+    </table>
+     <h3>Geographic information</h3>
+     <table>
+     <tr>
+        <td><label for="state">State:</label></td>
+        <td><input   class="state" type="text"required placeholder="Two characters"></td>
+     </tr>
+     <tr>
+        <td><label for="zip">Zip Code:</label></td>
+        <td><input class="code" type="text"required placeholder="Five digits" maxlength="5"></td>
+     </tr>
+     </table>
+     <h3>How did you hear about us?</h3>
+     <table>
+     <tr>
+        <td><label for="Web search">Web search:</label></td>
+        <td><input type="checkbox" ></td>
+     </tr>
+     <tr>
+        <td><label for="Facebook">Facebook:</label></td>
+        <td><input type="checkbox" ></td>
+     </tr>
+     <tr>
+        <td><label for="Twitter">Twitter:</label></td>
+        <td><input type="checkbox" ></td>
+     </tr>
+     <tr>
+        <td><label for="Email message">Email message:</label></td>
+        <td><input type="checkbox" ></td>
+     </tr>
+     </table>
+     <h3>Thank you for taking our survey!</h3>
+     <input class="a"  type="submit" value="Submit">
+     <input class="b" type="reset" value="Reset">
+        </b>
+    </div>
+</body>
+</html>
